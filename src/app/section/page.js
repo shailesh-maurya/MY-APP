@@ -225,7 +225,7 @@ export default function Section() {
                             />
                         </div>
                         <div className="mt-10 block w-full">
-                            <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-white hover:bg-transparent">Request a Demo</a>
+                            <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133;] hover:bg-transparent">Request a Demo</a>
                         </div>
                     </div>
                 </div>
@@ -243,14 +243,14 @@ export default function Section() {
                         />
                     </div>
                     <div className="relative flex max-lg:flex-wrap justify-end items-center">
-                    <div className="img-wrap hidden max-xl:block pr-[20px] max-lg:w-full ">
-                        <Image className="relative z-10 max-lg:mx-auto max-lg:mb-[20px]"
-                            src="/disney_image_quote.png"
-                            width={500}
-                            height={400}
-                            alt="Picture of the author"
-                        />
-                    </div>
+                        <div className="img-wrap hidden max-xl:block pr-[20px] max-lg:w-full ">
+                            <Image className="relative z-10 max-lg:mx-auto max-lg:mb-[20px]"
+                                src="/disney_image_quote.png"
+                                width={500}
+                                height={400}
+                                alt="Picture of the author"
+                            />
+                        </div>
                         <div className="w-1/2 max-w-[600px] max-lg:max-w-[100%] max-lg:w-full max-lg:mx-auto ">
                             <Image className="relative z-10 mb-[20px]"
                                 src="/disnep-white.png"
@@ -262,6 +262,216 @@ export default function Section() {
                             <h4 className="text-[#FFE133] text-[20px] max-md:text-[18px] max-sm:text-[16px] font-bold">Dana McGraw; VP Audience Modeling & Data Science at Disney Advertising</h4>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="content-card-grid">
+                <div className="px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto">
+                    <p className="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">what we do</p>
+                    <h2 className="text-black max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97]">Habu Clean Room Platform can help you unlock new insights wherever your data lives</h2>
+                    <div className="relative flex flex-wrap justify-center w-[calc(100%+20px)] -ml-[10px] mt-[40px] max-sm:mt-[20px]">
+                        <div className="relative w-[calc(50%-20px)] m-[10px] max-lg:w-full flex flex-wrap justify-center">
+                            <div className="w-[220px] max-sm:w-full">
+                                <Image className="relative z-10"
+                                    src="/customer.png"
+                                    width={220}
+                                    height={150}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="w-[calc(100%-220px)] max-sm:w-full pl-[20px] max-sm:pl-[0px] ">
+                                <h4 className="text-black font-bold leading-[1.13] mb-[20px] text-[30px] max-lg:text-[27px] max-md:text-[24px] max-sm:text-[21px]">Customer Journey and Attribution</h4>
+                                <p className="text-[16px] text-[#212022]">Get a more complete picture of consumer behaviors and close gaps in your customer journey with high-value data signals from key partners.</p>
+                            </div>
+                        </div>
+                        <div className="relative w-[calc(50%-20px)] m-[10px] max-lg:w-full flex flex-wrap justify-center">
+                            <div className="w-[220px] max-sm:w-full">
+                                <Image className="relative z-10"
+                                    src="/customer.png"
+                                    width={220}
+                                    height={150}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="w-[calc(100%-220px)] max-sm:w-full pl-[20px] max-sm:pl-[0px] ">
+                                <h4 className="text-black font-bold leading-[1.13] mb-[20px] text-[30px] max-lg:text-[27px] max-md:text-[24px] max-sm:text-[21px]">Customer Journey and Attribution</h4>
+                                <p className="text-[16px] text-[#212022]">Get a more complete picture of consumer behaviors and close gaps in your customer journey with high-value data signals from key partners.</p>
+                            </div>
+                        </div>
+                        <div className="relative w-[calc(50%-20px)] m-[10px] max-lg:w-full flex flex-wrap justify-center">
+                            <div className="w-[220px] max-sm:w-full">
+                                <Image className="relative z-10"
+                                    src="/customer.png"
+                                    width={220}
+                                    height={150}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="w-[calc(100%-220px)] max-sm:w-full pl-[20px] max-sm:pl-[0px] ">
+                                <h4 className="text-black font-bold leading-[1.13] mb-[20px] text-[30px] max-lg:text-[27px] max-md:text-[24px] max-sm:text-[21px]">Customer Journey and Attribution</h4>
+                                <p className="text-[16px] text-[#212022]">Get a more complete picture of consumer behaviors and close gaps in your customer journey with high-value data signals from key partners.</p>
+                            </div>
+                        </div>
+                        <div className="relative w-[calc(50%-20px)] m-[10px] max-lg:w-full flex flex-wrap justify-center">
+                            <div className="w-[220px] max-sm:w-full">
+                                <Image className="relative z-10"
+                                    src="/customer.png"
+                                    width={220}
+                                    height={150}
+                                    alt="Picture of the author"
+                                />
+                            </div>
+                            <div className="w-[calc(100%-220px)] max-sm:w-full pl-[20px] max-sm:pl-[0px] ">
+                                <h4 className="text-black font-bold leading-[1.13] mb-[20px] text-[30px] max-lg:text-[27px] max-md:text-[24px] max-sm:text-[21px]">Customer Journey and Attribution</h4>
+                                <p className="text-[16px] text-[#212022]">Get a more complete picture of consumer behaviors and close gaps in your customer journey with high-value data signals from key partners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mt-10 block w-full">
+                        <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133;] hover:bg-transparent">Request a Demo</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="solution relative bg-[#212022]">
+                <div className="absolute left-0 top-0 bottom-0 max-lg:hidden my-auto h-full">
+                    <Image className="relative"
+                        src="/solutions_left_quotemark@3x.png"
+                        width={340}
+                        height={250}
+                        alt="Picture of the author"
+                    />
+                </div>
+                <div className="absolute right-0 top-0 bottom-0 max-lg:hidden my-auto">
+                    <Image className="relative"
+                        src="/solutions_right_quotemark@3x.png"
+                        width={340}
+                        height={250}
+                        alt="Picture of the author"
+                    />
+                </div>
+                <div className="relative px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto z-10">
+                    <p className="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">what we do</p>
+                    <h2 className="text-white max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97]">For Those With Data to Share and Those Seeking Insights</h2>
+                    <div className="relative flex flex-wrap justify-center items-center">
+                        <div className="text-wrap w-1/2 max-sm:w-full mt-[20px]">
+                            <h3 className="text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] text-[#ffe136]">Build your own data clean room</h3>
+                            <p className="text-[16px] leading-[1.63] text-white">Build your own clean room on any cloud and collaborate with partners by distributing insights that drive growth – working with data where it lives.</p>
+                        </div>
+                        <div className="img-wrap w-1/2 max-sm:w-full">
+                            <Image className="relative"
+                                src="/solutions.png"
+                                width={1000}
+                                height={500}
+                                alt="Picture of the author"
+                            />
+                        </div>
+                    </div>
+                    <div className="relative flex flex-wrap justify-center items-center flex-row-reverse">
+                        <div className="text-wrap w-1/2 max-sm:w-full mt-[20px]">
+                            <h3 className="text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] text-[#ffe136]">Access your own data clean room</h3>
+                            <p className="text-[16px] leading-[1.63] text-white">Maximize your advertising investments with out-of-the-box intelligence packs and automation for walled gardens and other media platforms.</p>
+                        </div>
+                        <div className="img-wrap w-1/2 max-sm:w-full">
+                            <Image className="relative"
+                                src="/solutions2nd.png"
+                                width={1000}
+                                height={500}
+                                alt="Picture of the author"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="content-with-cards pb-[180px] bg-white">
+                <div className="px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto">
+                    <p className="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">Ecosystem</p>
+                    <h2 className="text-black max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97] mb-[20px]">Works Well with others</h2>
+                    <p className="text-[16px] text-black leading-[1.63]">Habu works with a wide range of collaborators across the ecosystem including leading platforms for activation, data and identity companies, agencies and consultancies, and major clouds. Fast-track business growth with a platform that integrates with your existing tools and technology investments.</p>
+                    <div className="relative max-w-[640px] flex flex-wrap items-center ml-auto mt-[20px]">
+                        <h5 className="w-full text-[20px] max-lg:text-[18px] max-md:text-[16px] font-bold mb-[20px]">Featured Certifications</h5>
+                        <div className="icon-wrap flex flex-wrap items-center">
+
+                            <Image className=""
+                                src="/google_cloud.png"
+                                width={180}
+                                height={100}
+                                alt="Picture of the author"
+                            />
+                            <Image className="ml-[20px]"
+                                src="/snowflake_bug.png"
+                                width={180}
+                                height={100}
+                                alt="Picture of the author"
+                            />
+                            <Image className="ml-[20px]"
+                                src="/amazon .png"
+                                width={180}
+                                height={100}
+                                alt="Picture of the author"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="bg-black utility-content">
+                <div className="px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto">
+                    <div className="card-wrap flex flex-wrap justify-between -mt-[150px]">
+                        <div className="relative max-w-[518px] shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px]">
+                            <div className="relative w-full flex flex-wrap items-center bg-black">
+                                <Image className="w-[50px]"
+                                    src="/yellow_habu.png"
+                                    width={100}
+                                    height={100}
+                                    alt="Picture of the author"
+                                />
+                                <h5 className="text-[#FFE133] text-[16px] font-bold pl-[20px] w-[calc(100%-50px)]">Featured Partner</h5>
+                            </div>
+                            <div className="content bg-white p-[30px] h-full">
+                                <Image className="mb-[20px]"
+                                    src="/snowflake_bug.png"
+                                    width={100}
+                                    height={100}
+                                    alt="Picture of the author"
+                                />
+                                <h3 className="mb-[20px] text-[45px] text-black font-bold leading-[1]">Infrastructure & Intelligence with Snowflake</h3>
+                                <p className="mb-[20px] text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi, pellentesque pulvinar ut lacus est. Ornare nec fringilla mi eu donec duis velit.</p>
+                                <div className="absolute left-[30px] bottom-[30px]">
+                                    <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133] hover:bg-transparent">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="relative max-w-[518px] shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px]">
+                            <div className="relative w-full flex flex-wrap items-center bg-black">
+                                <Image className="w-[50px]"
+                                    src="/yellow_habu.png"
+                                    width={100}
+                                    height={100}
+                                    alt="Picture of the author"
+                                />
+                                <h5 className="text-[#FFE133] text-[16px] font-bold pl-[20px] w-[calc(100%-50px)]">Featured Partner</h5>
+                            </div>
+                            <div className="content bg-white p-[30px] relative h-full">
+                                <Image className="mb-[20px]"
+                                    src="/aws.png"
+                                    width={100}
+                                    height={100}
+                                    alt="Picture of the author"
+                                />
+                                <h3 className="mb-[20px] text-[45px] text-black font-bold leading-[1]">Amazon Marketing Cloud</h3>
+                                <p className="mb-[20px] text-[18px]">Maximize your advertising investments with out-of-the-box intelligence packs and automation for walled gardens and other media platforms.</p>
+                                <div className="absolute left-[30px] bottom-[30px]">
+                                    <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133] hover:bg-transparent">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">industries we serve</p>
+                    <h2 class="text-white max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97]">Data collaboration for your needs</h2>
                 </div>
             </div>
         </>
