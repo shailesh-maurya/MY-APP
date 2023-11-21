@@ -153,7 +153,7 @@ export default function Section() {
                                     <h2 className="text-[#FFE133] text-[130px] max-lg:text-[110px] max-md:text-[90px] max-sm:text-[70px] font-bold leading-none m-[10px]">47%</h2>
                                     <p className="text-white mx-[10px]">of companies have used data clean rooms in the past 12 months*</p>
                                 </div>
-                                <div className=" relative block w-full flex flex-wrap items-center justify-end mt-[20px]">
+                                <div className=" relative w-full flex flex-wrap items-center justify-end mt-[20px]">
                                     <Link href="#" className=" inline-flex">
                                         <span className="text[14px] font-bold text-white mr-[10px]">LEARN MORE</span>
                                         <Image
@@ -386,7 +386,7 @@ export default function Section() {
             </div>
 
 
-            <div className="content-with-cards pb-[180px] bg-white">
+            <div className="content-with-cards pb-[180px] max-xl:pb-[0px] bg-white">
                 <div className="px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto">
                     <p className="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">Ecosystem</p>
                     <h2 className="text-black max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97] mb-[20px]">Works Well with others</h2>
@@ -420,8 +420,8 @@ export default function Section() {
 
             <div className="bg-black utility-content">
                 <div className="px-10 py-10 max-md:py-6 max-w-[1340px] mx-auto">
-                    <div className="card-wrap flex flex-wrap justify-between -mt-[150px]">
-                        <div className="relative max-w-[518px] shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px]">
+                    <div className="card-wrap flex flex-wrap justify-between -mt-[150px] max-xl:-mt-[0px]">
+                        <div className="relative max-w-[518px] max-xl:max-w-full shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px] max-xl:min-h-[auto] h-full -mt-[120px] max-xl:-mt-[0px] max-xl:pb-[85px] max-xl:mb-[20px]">
                             <div className="relative w-full flex flex-wrap items-center bg-black">
                                 <Image className="w-[50px]"
                                     src="/yellow_habu.png"
@@ -431,21 +431,21 @@ export default function Section() {
                                 />
                                 <h5 className="text-[#FFE133] text-[16px] font-bold pl-[20px] w-[calc(100%-50px)]">Featured Partner</h5>
                             </div>
-                            <div className="content bg-white p-[30px] h-full">
+                            <div className="content bg-white p-[30px] max-md:p-[15px] h-full">
                                 <Image className="mb-[20px]"
                                     src="/snowflake_bug.png"
-                                    width={100}
+                                    width={70}
                                     height={100}
                                     alt="Picture of the author"
                                 />
-                                <h3 className="mb-[20px] text-[45px] text-black font-bold leading-[1]">Infrastructure & Intelligence with Snowflake</h3>
+                                <h3 className="mb-[20px] text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] text-black font-bold leading-[1]">Infrastructure & Intelligence with Snowflake</h3>
                                 <p className="mb-[20px] text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisi, pellentesque pulvinar ut lacus est. Ornare nec fringilla mi eu donec duis velit.</p>
                                 <div className="absolute left-[30px] bottom-[30px]">
                                     <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133] hover:bg-transparent">Learn more</a>
                                 </div>
                             </div>
                         </div>
-                        <div className="relative max-w-[518px] shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px]">
+                        <div className="relative max-w-[518px] max-xl:max-w-full shadow-[0 10px 20px 0 rgba(33, 32, 34, 0.25)] bg-white min-h-[500px] max-xl:min-h-[auto] h-full max-xl:-mt-[0px] max-xl:pb-[85px]">
                             <div className="relative w-full flex flex-wrap items-center bg-black">
                                 <Image className="w-[50px]"
                                     src="/yellow_habu.png"
@@ -455,14 +455,14 @@ export default function Section() {
                                 />
                                 <h5 className="text-[#FFE133] text-[16px] font-bold pl-[20px] w-[calc(100%-50px)]">Featured Partner</h5>
                             </div>
-                            <div className="content bg-white p-[30px] relative h-full">
+                            <div className="content bg-white p-[30px] max-md:p-[15px] h-full">
                                 <Image className="mb-[20px]"
                                     src="/aws.png"
-                                    width={100}
+                                    width={70}
                                     height={100}
                                     alt="Picture of the author"
                                 />
-                                <h3 className="mb-[20px] text-[45px] text-black font-bold leading-[1]">Amazon Marketing Cloud</h3>
+                                <h3 className="mb-[20px] text-[45px] text-black max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] font-bold leading-[1]">Amazon Marketing Cloud</h3>
                                 <p className="mb-[20px] text-[18px]">Maximize your advertising investments with out-of-the-box intelligence packs and automation for walled gardens and other media platforms.</p>
                                 <div className="absolute left-[30px] bottom-[30px]">
                                     <a href="#" className="text-base text-black inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-[#FFE133] hover:bg-transparent">Learn more</a>
@@ -470,8 +470,142 @@ export default function Section() {
                             </div>
                         </div>
                     </div>
-                    <p class="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px]">industries we serve</p>
-                    <h2 class="text-white max-w-[1000px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97]">Data collaboration for your needs</h2>
+                    <p class="text-[20px] max-md:text-[18px] font-bold text-[#b1b1b1] mb-[10px] mt-[50px]">industries we serve</p>
+                    <h2 class="text-white max-w-[800px] text-[60px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px] font-bold leading-[0.97]">Data collaboration for your needs</h2>
+                    <div className="card-grid mt-[40px] flex flex-wrap">
+                        <div className="col-two w-1/2 max-xl:w-full">
+                            <div className="w-[calc(100%+20px)] -ml-[10px] flex flex-wrap">
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/coffee cup.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">CPG</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[10px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/cart.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Retail</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/bank.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Financial Services</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/plane.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Travel</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-two w-1/2 max-xl:w-full mt-[165px] max-xl:mt-[0px]">
+                            <div className="w-[calc(100%+20px)] -ml-[10px] flex flex-wrap">
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/volume.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Media</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/doctor.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Healthcare</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/note.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Entertainment</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                                <div className="card w-[calc(50%-20px)] max-md:w-full m-[10px]">
+                                    <Image className="max-w-[60px]"
+                                        src="/car.png"
+                                        width={100}
+                                        height={100}
+                                        alt="Picture of the author"
+                                    />
+                                    <h3 className="text-[#ffe136] text-[30px] max-lg:text-[28px] max-md:text-[26px] max-sm:text-[24px] font-bold mt-[20px] leading-[1.13]">Automotive</h3>
+                                    <p className="text-white text-[18px] max-md:text-[16px] mt-[20px] leading-[1.44]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="img-with-text">
+                <div className="px-10 py-10  max-w-[1340px] mx-auto">
+                    <div className="flex flex-wrap items-center justify-around">
+                        <div className="img-wrap w-1/2 max-lg:w-full">
+                            <Image
+                                src="/state_of_data.png"
+                                width={700}
+                                height={500}
+                                alt="Picture of the author"
+                            />
+                        </div>
+                        <div className="text-wrap w-1/2 max-lg:w-full">
+                            <p className="text-black text-[20px] max-lg:text-[19px] max-md:text-[18px] font-bold mb-[20px]">Report</p>
+                            <h3 className="text-black text-[60px] max-xl:text-[52px] max-lg:text-[44px] max-md:text-[36px] leading-[0.97] font-bold mb-[20px]">State  of Data Collaboration Report 2022</h3>
+                            <p className="text-[#212022] text-[20px] max-lg:text-[19px] max-md:text-[18px]">The future of data collaboration in a privacy-first world</p>
+                            <div className=" relative w-full flex flex-wrap items-center mt-[20px]">
+                                <Link href="#" className=" inline-flex">
+                                    <span className="text[14px] font-bold text-black mr-[10px]">LEARN MORE</span>
+                                    <Image
+                                        src="/chevron-right.png"
+                                        width={18}
+                                        height={18}
+                                        alt="Picture of the author"
+                                    />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="footer">
+                <div className="px-10 py-10  max-w-[1340px] mx-auto">
+                    <div className="footer-cta bg-[#FFE133] w-full relative min-h-[400px] flex flex-wrap items-center p-[40px]">
+                        <div className="w-2/3 pr-[20px]">
+                            <h2 className="text-[72px] max-xl:text-[60px] max-lg:text-[48px] max-md:text-[36px] font-bold leading-[0.97] text-right">Get smarter with collaborative intelligence</h2>
+                        </div>
+                        <div className="w-1/3 pl-[20px]">
+                            <div class="mt-10 block w-full"><a href="#" class="text-base text-[#FFE133;]  inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-black border-black border rounded-[5px] transition ease-in-out duration-300 hover:text-black hover:bg-transparent">Request a Demo</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
