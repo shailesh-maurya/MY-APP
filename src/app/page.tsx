@@ -8,6 +8,7 @@ export default function Home() {
         <p>Product List page</p>
         <Link href='/productlist'>Go to Product List age</Link>
         <Link href="/section">Go to Section Page</Link>
+        <Link href='/shift'>Go To Shift Page</Link>
       </main>
   )
 }
