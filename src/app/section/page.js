@@ -54,7 +54,7 @@ export default function Section() {
                         }
                     />
                 </div>
-                <div className="relative w-full px-10">
+                <div className="relative w-full px-10 py-10 max-w-[1340px] mx-auto">
                     <div className="w-1/2 max-lg:w-full">
                         <h1 className="text-[72px] max-xl:text-[60px] max-lg:text-[48px] max-md:text-[36px] font-bold text-white mb-[20px] max-md:mb-[10px]">Data to enrich your online business</h1>
                         <p className="text-[20px] max-md:text-[18px] text-white mb-[20px] mdmd:mb-[10px]">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
@@ -67,7 +67,7 @@ export default function Section() {
 
 
             <div className="logo-slider m-y-10">
-                <div className="relative w-full py-10">
+                <div className="relative w-full px-10 py-10 max-w-[1340px] mx-auto">
                     <div className="my-7">
                         <Slider {...settings}>
                             <div>
@@ -565,7 +565,7 @@ export default function Section() {
                 </div>
             </div>
 
-            <div className="img-with-text pb-[200px]">
+            <div className="img-with-text pb-[200px] max-lg:pb-[0px]">
                 <div className="px-10 py-10  max-w-[1340px] mx-auto">
                     <div className="flex flex-wrap items-center justify-around">
                         <div className="img-wrap w-1/2 max-lg:w-full">
@@ -598,60 +598,112 @@ export default function Section() {
 
             <div className="footer bg-[#212022]">
                 <div className="px-10 py-10  max-w-[1340px] mx-auto">
-                    <div className="footer-cta bg-[#FFE133] w-full relative min-h-[400px] flex flex-wrap items-center p-[40px] -mt-[175px]">
-                        <div className="w-2/3 pr-[20px]">
-                            <h2 className="text-[72px] max-xl:text-[60px] max-lg:text-[48px] max-md:text-[36px] font-bold leading-[0.97] text-right">Get smarter with collaborative intelligence</h2>
+                    <div className="footer-cta bg-[#FFE133] w-full relative min-h-[400px] max-md:min-h-fit flex flex-wrap items-center p-[40px] -mt-[175px] max-lg:mt-[0px] ">
+                        <div className="w-2/3 pr-[20px] max-lg:w-full max-lg:pr-[0px]">
+                            <h2 className="text-[72px] max-xl:text-[60px] max-lg:text-[48px] max-md:text-[36px] font-bold leading-[0.97] text-right max-lg:text-center">Get smarter with collaborative intelligence</h2>
                         </div>
-                        <div className="w-1/3 pl-[20px]">
-                            <div class="mt-10 block w-full"><a href="#" class="text-base text-[#FFE133;]  inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-black border-black border rounded-[5px] transition ease-in-out duration-300 hover:text-black hover:bg-transparent">Request a Demo</a></div>
+                        <div className="w-1/3 pl-[20px] max-lg:w-full max-lg:pl-[0px]">
+                            <div class="mt-10 block w-full max-lg:flex max-lg:justify-center"><a href="#" class="text-base text-[#FFE133;]  inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-black border-black border rounded-[5px] transition ease-in-out duration-300 hover:text-black hover:bg-transparent">Request a Demo</a></div>
                         </div>
                     </div>
                     <div className="footer-content mt-[50px]">
                         <div className="flex flex-wrap">
-                            <div className="w-2/5">
-                                <h3 className="text-white font-bold text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm-[30px] mb-[20px]">Stay Connected</h3>
-                                <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+                            <div className="w-2/5 max-lg:w-full">
+                                <h3 className="text-white font-bold text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm-[30px] mb-[20px] max-lg:text-center">Stay Connected</h3>
+                                <form action="#" method="POST" class="mx-auto mt-16 max-lg:mt-0 max-w-xl">
                                     <div class="flex flex-wrap items-end">
-                                        <div class="relative w-2/3">
-                                            <label for="email" class="block text-[#b1b1b1] cursor-pointer">Email</label>
-                                            <input type="text" name="email" id="email" autocomplete="email" class="text-[#212022] bg-[#eeeeee] w-full max-w-[300px] p-[12px] rounded outline-none" />
+                                        <div class="relative w-2/3 max-lg:w-full mb-[20px] pr-[10px] max-lg:flex max-lg:flex-wrap max-lg:justify-center">
+                                            <label for="email" class="block text-[#b1b1b1] cursor-pointer max-lg:text-center max-lg:w-full">Email</label>
+                                            <input type="text" name="email" id="email" autocomplete="email" class="text-[#212022] bg-[#eeeeee] w-full max-w-[300px] p-[12px] rounded outline-none max-lg:mx-auto max-lg:w-full" />
                                         </div>
-                                        <div class="relative w-1/3">
+                                        <div class="relative w-1/3 max-lg:w-full mb-[20px] max-lg:flex max-lg:justify-center">
                                             <button type="submit" class="text-base text-black inline-block font-bold py-[12px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-[#FFE133;] border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-white hover:bg-transparent">Submit</button>
                                         </div>
                                     </div>
                                 </form>
-                                <div class="mt-10 block w-full"><a href="#" class="text-base text-white  inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-transparent border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-black hover:bg-[#FFE133;]">Contact Us</a></div>
+                                <div class="mt-10 block w-full max-lg:flex max-lg:justify-center"><a href="#" class="text-base text-white  inline-block font-bold py-[14px] max-md:py-[12px] px-[22px] max-md:px-[20px] uppercase bg-transparent border-[#FFE133;] border rounded-[5px] transition ease-in-out duration-300 hover:text-black hover:bg-[#FFE133;]">Contact Us</a></div>
                             </div>
-                            <div className="w-2/5 mt-[50px] flex flex-wrap">
-                                <div className="w-1/2">
+                            <div className="w-2/5 mt-[50px] flex flex-wrap justify-between max-lg:w-full">
+                                <div className="w-1/2 text-center max-sm:w-full">
                                     <ul>
                                         <li>
-                                            <Link href='#' className="text-white text-[14px] uppercase mb-[20px]">Data Clean Room Overview</Link>
+                                            <Link href='#' className="text-white text-[14px] uppercase mb-[10px] hover:text-[#FFE133] block font-semibold">Data Clean Room Overview</Link>
                                         </li>
                                         <li>
-                                            <Link href='#'>Use Cases</Link>
+                                            <Link href='#' className="text-white text-[14px] uppercase mb-[10px] hover:text-[#FFE133] block font-semibold">Use Cases</Link>
                                         </li>
                                         <li>
-                                            <Link href='#'>About Us</Link>
+                                            <Link href='#' className="text-white text-[14px] uppercase mb-[10px] hover:text-[#FFE133] block font-semibold">About Us</Link>
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="w-1/2">
+                                <div className="w-1/2 text-center max-sm:w-full">
                                     <ul>
                                         <li>
-                                            <Link href='#'>Amazon</Link>
+                                            <Link href='#' className="text-white text-[14px] uppercase mb-[10px] hover:text-[#FFE133] block font-semibold">Amazon</Link>
                                         </li>
                                         <li>
-                                            <Link href='#'>Snowflake</Link>
-                                        </li>
-                                        <li>
-                                            <Link href='#'></Link>
+                                            <Link href='#' className="text-white text-[14px] uppercase mb-[10px] hover:text-[#FFE133] block font-semibold">Snowflake</Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="w-1/5"></div>
+                            <div className="w-1/5 max-lg:w-full max-lg:flex max-lg:justify-center max-lg:flex-wrap">
+                                <h4 className="text-[#FFE133] text-[20px] max-lg:text-[18px] max-md:text-[16px] mb-[50px] w-full max-lg:text-center max-lg:mb-[20px]">Industries we serve</h4>
+                                <div className="flex flex-wrap max-lg:justify-center max-lg:w-[calc(100%+20px)]">
+                                    <Image className="w-[155px] block mb-[20px] max-lg:px-[10px]"
+                                        src="/Google_Cloud_Partner.png"
+                                        width={80}
+                                        height={60}
+                                    />
+                                    <Image className="w-[155px] block mb-[20px]"
+                                        src="/powered by lockup stacked white.png"
+                                        width={80}
+                                        height={65}
+                                    />
+                                    <Image className="w-[155px] block mb-[20px]"
+                                        src="/AmazonAds.png"
+                                        width={80}
+                                        height={65}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="privecy-policy mt-[100px] max-lg:mt-[40px] max-sm:mt-[20px] border-t-[10px] border-[#FFE133]">
+                        <div className="flex flex-wrap justify-between pt-[50px] max-lg:justify-center w-full">
+                            <div className="icon max-lg:w-full">
+                                <Link href='#'>
+                                <Image class=" max-lg:mx-auto"
+                                    src='/habu-logo.png'
+                                    width={80}
+                                    height={80}
+                                />
+                                </Link>
+                            </div>
+                            <div className="max-lg:w-full max-lg:my-[10px]">
+                                <p className="text-[16px] text-white max-lg:text-center ">© 2022 Habu Inc.</p>
+                            </div>
+                            <div className="max-lg:w-full">
+                                <ul className="flex flex-wrap max-lg:justify-center max-lg:text-center">
+                                    <li className="text-white text-[16px] ml-[10px] max-lg:w-full max-lg:mb-[10px]">Privacy Policy</li>
+                                    <li className="text-white text-[16px] ml-[10px] max-lg:w-full max-lg:mb-[10px]">Cookie policy</li>
+                                    <li className="text-white text-[16px] ml-[10px] max-lg:w-full max-lg:mb-[10px]">Privacy Settings</li>
+                                    <li className="text-white text-[16px] ml-[10px] max-lg:w-full max-lg:mb-[10px]">Do not sell my personal information</li>
+                                    <li className=" ml-[10px]"><Link href='#'><Image class="max-w-[30px] rounded"
+                                        src="/linkedin.png"
+                                        width={80}
+                                        height={80}
+                                    /></Link>
+                                    </li>
+                                    <li className=" ml-[10px]"><Link href='#'><Image class="max-w-[30px] rounded"
+                                        src="/twitter.png"
+                                        width={80}
+                                        height={80}
+                                    /></Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
