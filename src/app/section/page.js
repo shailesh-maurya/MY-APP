@@ -170,7 +170,7 @@ export default function Section() {
                     <div className="relative w-full p-5 bg-black mt-[20px] font-bold">
                         <h4 className="text-[#c8c8c8] text-[22px] max-w-[100px] mb-[20px]">BUSINESS INSIDER</h4>
                         <h2 className="text-[#FFE133] max-w-[1000px] text-[45px] max-lg:text-[40px] max-md:text-[35px] max-sm:text-[30px] font-bold leading-none">Habu named one of the hottest marketing tech companies of 2022!</h2>
-                        <div className=" relative block w-full flex flex-wrap items-center justify-end mt-[20px]">
+                        <div className=" relative w-full flex flex-wrap items-center justify-end mt-[20px]">
                             <Link href="#" className=" inline-flex">
                                 <span className="text[14px] font-bold text-white mr-[10px]">LEARN MORE</span>
                                 <Image

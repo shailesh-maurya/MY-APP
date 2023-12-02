@@ -1,14 +1,16 @@
 import Image from 'next/image'
 import Link from '../../node_modules/next/link'
 
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>Bright home page</h1>
-        <p>Product List page</p>
-        <Link href='/productlist'>Go to Product List age</Link>
-        <Link href="/section">Go to Section Page</Link>
-        <Link href='/shift'>Go To Shift Page</Link>
+    <main className="text-center">
+        <h1 className='w-full block mb-[20px]'>Bright home page</h1>
+        <p className='w-full block mb-[20px]'>Product List page</p>
+        <Link className='w-full relative block mb-[20px]' href='/productlist'>Go to Product List age</Link>
+        <Link className='w-full relative block mb-[20px]' href="/section">Go to Section Page</Link>
+        <Link className='w-full relative block mb-[20px]' href='/shift'>Go To Shift Page</Link>
+        <Link className='w-full relative block mb-[20px]' href='/components'>Go To Tab Page</Link>
       </main>
   )
 }
