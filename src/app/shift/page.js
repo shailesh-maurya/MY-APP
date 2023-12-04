@@ -644,7 +644,7 @@ export default function Shift() {
                                                     </div>
                                                 </Tab.Panel>
                                                 <Tab.Panel className="w-full  flex flex-wrap">
-                                                    <h1 className='text-white block w-full'>Tab content1</h1>
+                                                    <h1 className='text-white block w-full'>Tab content2</h1>
                                                     <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
@@ -1009,7 +1009,7 @@ export default function Shift() {
                         </div>
                     </div>
                     <div className='wrapper w-[calc(100%+20px)] -ml-[10px] mt-[40px] flex flex-wrap'>
-                        <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
+                        <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow hover:outline-3 hover:outline-black'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
                                     src="/award_1.png"
@@ -1018,7 +1018,7 @@ export default function Shift() {
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <h4 className='text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award one</h4>
+                            <h4 className='text-left w-full text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award one</h4>
                             <p className='text-black text-[16px] pb-[30px]'>At diam tellus lectus sociis neque sed elementum. Ac mauris odio tristique.</p>
                             <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
                                 <a class=" text-black hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">Learn more
@@ -1027,13 +1027,13 @@ export default function Shift() {
                         <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
-                                    src="/award_1.png"
+                                    src="/award_2.png"
                                     width={180}
                                     height={130}
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <h4 className='text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award one</h4>
+                            <h4 className='w-full text-left text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award two</h4>
                             <p className='text-black text-[16px] pb-[30px]'>At diam tellus lectus sociis neque sed elementum. Ac mauris odio tristique.</p>
                             <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
                                 <a class=" text-black hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">Learn more
@@ -1042,19 +1042,166 @@ export default function Shift() {
                         <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
-                                    src="/award_1.png"
+                                    src="/award_3.png"
                                     width={180}
                                     height={130}
                                     alt="Picture of the author"
                                 />
                             </div>
-                            <h4 className='text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award one</h4>
+                            <h4 className='text-left w-full text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px]'>Award three</h4>
                             <p className='text-black text-[16px] pb-[30px]'>At diam tellus lectus sociis neque sed elementum. Ac mauris odio tristique.</p>
                             <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
                                 <a class=" text-black hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">Learn more
                                 </span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className='footer-cta relative py-[40px] mx-auto w-full max-w-[1235px] bg-[#fff]'>
+                <div className='relative w-full mx-auto my-0 px-[50px]'>
+                    <div className='wrapper'>
+                        <div className='col-left w-1/2'>
+                            <h2 className='text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-black mb-[20px] leading-[100%] max-w-[771px]'>Headline about careers</h2>
+                            <p className="max-w-[771px] text-[18px] mb-[20px]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora amet set incidunt ut labore et dolore magnam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi.</p>
+                            <Link href="#" className="text-black text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">view open postions</Link>
+                        </div>
+                        <div className='col-right w-1/2'>
+                            <Image className="absolute top-0 right-0"
+                                src="/careers_graphic.png"
+                                width={566}
+                                height={638}
+                                alt="Picture of the author"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='relative py-[140px] mx-auto w-full max-w-[1235px] bg-[#000]'>
+                <div className='relative w-full mx-auto my-0 px-[50px]'>
+                    <div className="flex flex-wrap items-end ">
+                        <div className="w-2/3">
+                            <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-white mb-[20px] leading-[100%] max-w-[771px]"><span>Explore</span>more from Sift</h2>
+                        </div>
+                        <div className="w-1/3 flex justify-end mt-[40px]">
+                            <Link href="#" className="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">Watch the video</Link>
+                        </div>
+                    </div>
+                    <div className='wrap w-[calc(100%+20px)] relative -ml-[10px] flex flex-wrap'>
+                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                            <Image className="transition-all duration-700 group-hover:scale-105 "
+                                src="/cardimgone.png"
+                                width={566}
+                                height={638}
+                                alt="Picture of the author"
+                            />
+                            <div className='content text-white p-[32px]'>
+                                <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                            </div>
+                        </div>
+                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                            <Image className="transition-all duration-700 group-hover:scale-105 "
+                                src="/scondcard.png"
+                                width={566}
+                                height={638}
+                                alt="Picture of the author"
+                            />
+                            <div className='content text-white p-[32px]'>
+                                <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                            </div>
+                        </div>
+                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                            <Image className="transition-all duration-700 group-hover:scale-105 "
+                                src="/scondcard.png"
+                                width={566}
+                                height={638}
+                                alt="Picture of the author"
+                            />
+                            <div className='content text-white p-[32px]'>
+                                <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='relative py-[40px] mx-auto w-full max-w-[1235px]  pt-[180px] bg-black truncate whitespace-pre-line'>
+                <div className='absolute top-0 left-0 bg-left w-1/2 z-10'>
+
+                </div>
+                <div className='relative w-full mx-auto my-0 px-[50px] '>
+                    <div className='w-full flex flex-wrap bg-[#2E69FF] justify-end align-middle relative rounded-t-lg'>
+                        <div className='left-img w-1/2 max-lg:w-full max-lg:relative'>
+                            <Image className="absolute left-0 bottom-0"
+                                src="/footercta.webp"
+                                width={520}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            {/* <div className='absolute -top-[122%] after:content-[url(/Vector.png)] after:inline-block after:h-auto after:w-[520px] truncate z-10 -left-[14%]'></div> */}
+                        </div>
+                        <div className='col-left w-1/2 relative max-lg:w-full'>
+                            {/* <Image className="absolute left-0 bottom-0"
+                                src="/footercta.webp"
+                                width={520}
+                                height={300}
+                                alt="Picture of the author"
+                            />
+                            <div className=' relative after:content-[url(/Vector.png)] after:inline-block after:h-[700px] after:w-[520px] truncate z-10 -left-[20%] top-0'></div> */}
+                        </div>
+                        <div className='col-right w-1/2 py-[30px]'>
+                            <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-white mb-[20px] leading-[100%] max-w-[771px]">Take the next step</h2>
+                            <p className='text-[18px] text-white font-[400] leading-[150%] mb-[20px]'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum.</p>
+                            <Link href="#" className="text-black text-[16px] font-bold bg-white border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#Ffff] rounded-full inline-block uppercase hover:text-[#FF3B84] hover:bg-[#FFff] hover:border-[#FF3B84] ease-in-out duration-700">Optional CTA</Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className='relative py-[40px] mx-auto w-full max-w-[1235px]  bg-black'>
+                <div className='relative w-full mx-auto my-0 px-[50px]'>
+                    <div className='w-1/6 flex flex-wrap'>
+                        <Image className=""
+                            src="/Youtube.png"
+                            width={140}
+                            height={50}
+                            alt="Picture of the author"
+                        />
+                        <div className='social-nav'>
+                        <Image className=""
+                            src="/linkedins.png"
+                            width={140}
+                            height={50}
+                            alt="Picture of the author"
+                        />
+                        <Image className=""
+                            src="/Instagram.png"
+                            width={140}
+                            height={50}
+                            alt="Picture of the author"
+                        />
+                        <Image className=""
+                            src="/Xwitter.png"
+                            width={140}
+                            height={50}
+                            alt="Picture of the author"
+                        />
+                        <Image className=""
+                            src="/fb.png"
+                            width={140}
+                            height={50}
+                            alt="Picture of the author"
+                        />
+                        </div>
+                    </div>
+                    <div className='w-3/6'></div>
+                    <div className='w-2/6'></div>
                 </div>
             </section>
         </>
