@@ -150,11 +150,11 @@ export default function Shift() {
             <section className="bg-[#EAF0FF] relative py-[40px] pt-[140px] mx-auto w-full max-w-[1235px]">
                 <div className="relative w-full mx-auto my-0 px-[50px]">
                     <div className="flex flex-wrap items-end">
-                        <div className="w-2/3">
+                        <div className="w-2/3 max-lg:w-full">
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-black mb-[20px] leading-[100%] max-w-[771px]">Market leadership headline lorem at ipsum dolore</h2>
                             <p className="max-w-[771px] text-[18px]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora amet set incidunt ut labore et dolore magnam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi.</p>
                         </div>
-                        <div className="w-1/3 flex justify-end">
+                        <div className="w-1/3 flex justify-end max-lg:w-full max-lg:justify-start max-lg:mt-[24px]">
                             <Link href="#" className="text-black text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">Watch the video</Link>
                         </div>
                     </div>
@@ -176,18 +176,18 @@ export default function Shift() {
                             alt="Picture of the author"
                         />
                     </div>
-                    <div className="card-wrapper w-[calc(100%+20px)] mt-[50px] flex flex-wrap -ml-[10px]">
-                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] m-[10px] pt-[24px] ">
-                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px] max-sm:text-[24px] text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
-                            <p className="text-[18px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
+                    <div className="card-wrapper w-[calc(100%+20px)] max-sm:w-full max-sm:-ml-0 mt-[50px] max-lg:mt-[24px] flex flex-wrap -ml-[10px]">
+                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] max-sm:my-[10px] max-sm:mx-0 m-[10px] pt-[24px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
+                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px] text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
+                            <p className="text-[18px] max-lg:text-[16px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
                         </div>
-                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] m-[10px] pt-[24px]">
-                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px] max-sm:text-[24px] text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
-                            <p className="text-[18px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
+                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] max-sm:my-[10px] max-sm:mx-0 m-[10px] pt-[24px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
+                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px]  text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
+                            <p className="text-[18px] max-lg:text-[16px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
                         </div>
-                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] m-[10px] pt-[24px]">
-                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px] max-sm:text-[24px] text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
-                            <p className="text-[18px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
+                        <div className="card border-t-[2px] border-black w-[calc(33.33%-20px)] max-sm:my-[10px] max-sm:mx-0 m-[10px] pt-[24px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
+                            <h4 className="text-[24px] max-xl:text-[22px] max-lg:text-[20px] max-md:text-[18px] text-black mb-[20px]">Lorem Ipsum Dolor Sit Amet Cosectur Risus Egestas</h4>
+                            <p className="text-[18px] max-lg:text-[16px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis nibh iaculis venenatis. Arcu sit nunc pretium, fermentum euismod libero nuncadfnk.</p>
                         </div>
                     </div>
                 </div>
@@ -195,17 +195,17 @@ export default function Shift() {
             <section className="bg-gradient-to-b from-black to-[#010f43]  relative py-[40px] mx-auto w-full max-w-[1235px]">
                 <div className="relative w-full mx-auto my-0 px-[50px]">
                     <div className="flex flex-wrap items-end">
-                        <div className="w-3/4">
+                        <div className="w-3/4 max-lg:w-full max-xl:mb-[20px]">
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-white mb-[20px] leading-[100%] font-[Permanent Marker]">Headline <span className="text-[#79f7c6]">About</span> our values</h2>
-                            <p className="max-w-[771px] text-[18px] text-white">Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. </p>
+                            <p className="max-w-[771px] text-[18px] max-lg:text-[16px] text-white">Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. </p>
                         </div>
-                        <div className="w-1/4 flex justify-end">
-                            <Link href="#" onClick={() => toggleTab(1)} className="text-black text-[16px] font-bold bg-[#ff3b84] border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-white hover:bg-transparent ease-in-out duration-700">Careers</Link>
-                            <Link href="#" onClick={() => toggleTab(1)} className="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700 ml-[20px]">Media Kit</Link>
+                        <div className="w-1/4 flex justify-end max-xl:w-full max-xl:justify-start flex-wrap">
+                            <Link href="#" onClick={() => toggleTab(1)} className="text-black text-[16px] font-bold bg-[#ff3b84] border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-white hover:bg-transparent ease-in-out duration-700 max-sm:mb-[10px] max-sm:mr-[10px]">Careers</Link>
+                            <Link href="#" onClick={() => toggleTab(1)} className="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700 ml-[20px] max-sm:ml-0">Media Kit</Link>
                         </div>
                     </div>
-                    <div className="content-wrap w-[calc(100%+20px)] -ml-[10px] mt-[40px] flex flex-wrap  align-middle">
-                        <div className="content w-[calc(33.33%-20px)] m-[10px]">
+                    <div className="content-wrap w-[calc(100%+20px)] -ml-[10px] mt-[50px] max-lg:mt-[20px] flex flex-wrap  align-middle">
+                        <div className="content w-[calc(33.33%-20px)] m-[10px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
                             <div className="icon mb-[20px] max-w-[40px]">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_674_1394)">
@@ -221,7 +221,7 @@ export default function Shift() {
                             <h4 className="text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold text-white mb-[20px] leading-[120%]">Lorem Ipsum Dolor</h4>
                             <p className="text-[16px] text-white font-[400]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
-                        <div className="content w-[calc(33.33%-20px)] m-[10px]">
+                        <div className="content w-[calc(33.33%-20px)] m-[10px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
                             <div className="icon mb-[20px] max-w-[40px]">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_674_1399)">
@@ -238,7 +238,7 @@ export default function Shift() {
                             <h4 className="text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold text-white mb-[20px] leading-[120%]">Lorem Ipsum Dolor</h4>
                             <p className="text-[16px] text-white font-[400]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
-                        <div className="content w-[calc(33.33%-20px)] m-[10px]">
+                        <div className="content w-[calc(33.33%-20px)] m-[10px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
                             <div className="icon mb-[20px] max-w-[40px]">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_674_1404)">
@@ -255,7 +255,7 @@ export default function Shift() {
                             <h4 className="text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold text-white mb-[20px] leading-[120%]">Lorem Ipsum Dolor</h4>
                             <p className="text-[16px] text-white font-[400]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
-                        <div className="content w-[calc(33.33%-20px)] m-[10px]">
+                        <div className="content w-[calc(33.33%-20px)] m-[10px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
                             <div className="icon mb-[20px] max-w-[40px]">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_674_1410)">
@@ -272,7 +272,7 @@ export default function Shift() {
                             <h4 className="text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold text-white mb-[20px] leading-[120%]">Lorem Ipsum Dolor</h4>
                             <p className="text-[16px] text-white font-[400]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
-                        <div className="content w-[calc(33.33%-20px)] m-[10px]">
+                        <div className="content w-[calc(33.33%-20px)] m-[10px] max-lg:w-[calc(50%-20px)] max-sm:w-full">
                             <div className="icon mb-[20px] max-w-[40px]">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_674_1415)">
@@ -290,29 +290,29 @@ export default function Shift() {
                             <p className="text-[16px] text-white font-[400]">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
                     </div>
-                    <div className="wrapper flex flex-wrap mt-[40px]">
-                        <div className="col-two w-1/2 pr-[10px]">
+                    <div className="wrapper flex flex-wrap mt-[40px] max-sm:mt-[20px]">
+                        <div className="col-two w-1/2 pr-[10px] max-lg:w-full">
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] font-bold text-white mb-[20px] leading-[115%]">History Headline</h2>
-                            <p className="text-white text-[16px] mb-[40px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi pulvinar aenean. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi pulvinar aenean dolor sit amet, consectetur adipiscing elit.</p>
+                            <p className="text-white text-[16px] mb-[40px] max-lg:mb-[20px] leading-[150%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi pulvinar aenean. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi pulvinar aenean dolor sit amet, consectetur adipiscing elit.</p>
                             <div className="btn-wrap">
                                 <Link href="#" className="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] px-[24px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">Optional CTA</Link>
                             </div>
                             <div className="tab-content mt-[30px] flex flex-wrap justify-around">
-                                <div className="years text-white">
+                                <div className="years text-white max-lg:w-full max-lg:flex flex-wrap justify-around">
                                     {
                                         tabData.map((data, index) => (
                                             <h3 className="mb-[20px] text-white" key={index} onClick={() => handleTabClick(index)}>{data.date}</h3>
                                         ))
                                     }
                                 </div>
-                                <div className="">
+                                <div className="max-lg:w-full max-lg:text-center">
                                     <h3 className="text-white font-bold text-[88px] max-xl:text-[76px] max-lg:text-[64px] max-md:text-[52px] max-sm:text-[40px] mb-[20px] leading-[100%]">{tabData[activeTab].date}</h3>
                                     <p className="text-[#79F7C6] text-[14px] font-semibold uppercase mb-[20px]">{tabData[activeTab].highLightedText} </p>
-                                    <p className="text-white text-[16px] leading-[150%] font-normal">{tabData[activeTab].blurb}</p>
+                                    <p className="text-white text-[16px] leading-[150%] font-normal max-lg:mb-[20px]">{tabData[activeTab].blurb}</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-two w-1/2">
+                        <div className="col-two w-1/2 max-lg:w-full">
                             <div className="img-wrap pl-[10px]">
                                 <Image
                                     src={tabData[activeTab].image}
@@ -333,7 +333,8 @@ export default function Shift() {
                         <div className="tab-content mt-[50px]">
                             <Tab.Group className="">
                                 <Tab.List>
-                                    <Tab as={Fragment} className="text-[16px] text-white font-[700] leading-[120%] uppercase py-[10px] px-[10px] text-center w-1/2   hover:opacity-[1] cursor-pointer inline-block outline-0">
+                                    <div className='max-sm:overflow-x-scroll max-sm:w-full max-sm:whitespace-nowrap'>
+                                    <Tab as={Fragment} className="text-[16px] max-sm:text-[14px] text-white font-[700] leading-[120%] uppercase py-[10px] px-[10px] text-center w-1/2   hover:opacity-[1] cursor-pointer inline-block outline-0">
                                         {({ selected }) => (
 
                                             <button
@@ -345,7 +346,7 @@ export default function Shift() {
                                             </button>
                                         )}
                                     </Tab>
-                                    <Tab as={Fragment} className="text-[16px] text-white font-[700] leading-[120%] uppercase py-[10px] px-[10px] text-center w-1/2  opacity-[0.4] hover:opacity-[1] cursor-pointer inline-block outline-0">
+                                    <Tab as={Fragment} className="text-[16px] max-sm:text-[14px] text-white font-[700] leading-[120%] uppercase py-[10px] px-[10px] text-center w-1/2  opacity-[0.4] hover:opacity-[1] cursor-pointer inline-block outline-0">
                                         {({ selected }) => (
 
                                             <button
@@ -357,12 +358,13 @@ export default function Shift() {
                                             </button>
                                         )}
                                     </Tab>
+                                    </div>
                                     <div className='tab-content mt-[50px]'>
                                         <div className='wrapper  flex flex-wrap'>
                                             <Tab.Panels className="wrapper  ">
                                                 <Tab.Panel className="w-full  flex flex-wrap">
                                                     <h1 className='text-white block w-full'>Tab content1</h1>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/jason_tran.png"
@@ -390,7 +392,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/kris_nagel.png"
@@ -418,7 +420,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/eugene_sung.png"
@@ -446,7 +448,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/chris_jones.png"
@@ -474,7 +476,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)]  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/neeraj_gupta.png"
@@ -502,7 +504,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/armen_najarian.png"
@@ -522,7 +524,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -530,7 +532,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/liz_kosinski.png"
@@ -550,7 +552,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -558,7 +560,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/eva_gutierrez.png"
@@ -578,7 +580,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -586,7 +588,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/dave_scholtz.png"
@@ -606,7 +608,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -614,7 +616,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/raj_motwane.png"
@@ -634,7 +636,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -645,11 +647,11 @@ export default function Shift() {
                                                 </Tab.Panel>
                                                 <Tab.Panel className="w-full  flex flex-wrap">
                                                     <h1 className='text-white block w-full'>Tab content2</h1>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/jason_tran.png"
-                                                                width={480}
+                                                                width={500}
                                                                 height={220}
                                                             />
                                                         </div>
@@ -673,7 +675,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/kris_nagel.png"
@@ -693,7 +695,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -701,7 +703,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/eugene_sung.png"
@@ -721,7 +723,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -729,7 +731,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/chris_jones.png"
@@ -749,7 +751,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -757,7 +759,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)]  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0  m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/neeraj_gupta.png"
@@ -777,7 +779,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -785,7 +787,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/armen_najarian.png"
@@ -805,7 +807,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -813,7 +815,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/liz_kosinski.png"
@@ -833,7 +835,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -841,7 +843,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/eva_gutierrez.png"
@@ -861,7 +863,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -869,7 +871,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/dave_scholtz.png"
@@ -889,7 +891,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -897,7 +899,7 @@ export default function Shift() {
 
                                                         </div>
                                                     </div>
-                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-[calc(100%-20px)] m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
+                                                    <div className="card relative w-[calc(25%-20px)] max-md:w-[calc(50%-20px)] max-lg:w-[calc(33.33%-20px)] max-sm:w-full max-sm:-ml-0 max-sm:mx-0 m-[10px] rounded-[16px] border-2 transition-all duration-700 hover:scale-105  bg-black group hover:shadow-lg overflow-hidden">
                                                         <div className="img-wrap transition-all duration-700 group-hover:scale-105">
                                                             <Image className="overflow-hidden"
                                                                 src="/raj_motwane.png"
@@ -917,7 +919,7 @@ export default function Shift() {
                                                                 </Link>
                                                             </div>
                                                         </div>
-                                                        <div className="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer">
+                                                        <div className="absolute bottom-[20px] left-[32px] max-md:left-[20px] flex flex-wrap align-middle cursor-pointer">
                                                             <Link href="#" className=" text-white hover:text">
                                                                 <span className="inline-block font-bold group-hover:text-[#ff3b84]">Read bio</span>
                                                                 <svg className="ml-[10px] inline-block" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg>
@@ -937,15 +939,15 @@ export default function Shift() {
             </section>
             <section className="relative py-[40px] mx-auto w-full max-w-[1235px] bg-[#EAF0FF]">
                 <div className="relative w-full mx-auto my-0 px-[50px]">
-                    <div className="flex flex-wrap items-end">
-                        <div className="w-2/3">
+                    <div className="flex flex-wrap items-end ">
+                        <div className="w-2/3 max-lg:w-full">
                             <h2 className="text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] font-bold text-black mb-[20px] leading-[100%] max-w-[771px]">Working with the biggest innovators and game changers</h2>
                         </div>
-                        <div className="w-1/3 flex justify-end">
+                        <div className="w-1/3 flex justify-end max-lg:w-full max-lg:justify-start">
                             <Link href="#" className="text-black text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">view all investors</Link>
                         </div>
                     </div>
-                    <div className="w-full relative mt-[50px]">
+                    <div className="w-full relative mt-[50px] max-md:mt-[20px]">
                         <Slider {...settings}>
                             <div>
                                 <Image
@@ -1005,11 +1007,11 @@ export default function Shift() {
                     <div className="flex flex-wrap">
                         <div className="w-full">
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-black mb-[20px] leading-[100%]">This is a headline about awards</h2>
-                            <p className='text-[18px] text-black'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum.</p>
+                            <p className='text-[18px]  max-sm:text-[16px] text-black'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum.</p>
                         </div>
                     </div>
                     <div className='wrapper w-[calc(100%+20px)] -ml-[10px] mt-[40px] flex flex-wrap'>
-                        <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow hover:outline-3 hover:outline-black'>
+                        <div className='col-three relative w-[calc(33.33%-20px)] max-lg:w-[calc(50%-20px)] max-sm:w-full p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow hover:outline-3 hover:outline-black'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
                                     src="/award_1.png"
@@ -1024,7 +1026,7 @@ export default function Shift() {
                                 <a class=" text-black hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">Learn more
                                 </span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                         </div>
-                        <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
+                        <div className='col-three relative w-[calc(33.33%-20px)] max-lg:w-[calc(50%-20px)] max-sm:w-full p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
                                     src="/award_2.png"
@@ -1039,7 +1041,7 @@ export default function Shift() {
                                 <a class=" text-black hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">Learn more
                                 </span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                         </div>
-                        <div className='col-three relative w-[calc(33.33%-20px)] p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
+                        <div className='col-three relative w-[calc(33.33%-20px)] max-lg:w-[calc(50%-20px)] max-sm:w-full p-[32px] m-[10px] cursor-pointer border-2 border-black rounded-[16px] shadow-[] flex flex-wrap justify-center group group-hover:border-3 group-hover:border-black hover:shadow-black-shadow'>
                             <div className='icon transition-all duration-700 ease-in-out group group-hover:scale-110'>
                                 <Image
                                     src="/award_3.png"
@@ -1060,14 +1062,14 @@ export default function Shift() {
 
             <section className='footer-cta relative py-[40px] mx-auto w-full max-w-[1235px] bg-[#fff]'>
                 <div className='relative w-full mx-auto my-0 px-[50px]'>
-                    <div className='wrapper'>
-                        <div className='col-left w-1/2'>
+                    <div className='wrapper flex flex-wrap'>
+                        <div className='col-left w-1/2 max-md:w-full'>
                             <h2 className='text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-black mb-[20px] leading-[100%] max-w-[771px]'>Headline about careers</h2>
-                            <p className="max-w-[771px] text-[18px] mb-[20px]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora amet set incidunt ut labore et dolore magnam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi.</p>
+                            <p className="max-w-[771px] text-[18px] max-md:text-[16px] mb-[20px]">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora amet set incidunt ut labore et dolore magnam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin suspendisse amet, aliquam auctor semper at facilisi.</p>
                             <Link href="#" className="text-black text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">view open postions</Link>
                         </div>
-                        <div className='col-right w-1/2'>
-                            <Image className="absolute top-0 right-0"
+                        <div className='col-right w-1/2 max-md:w-full max-md:mt-[20px]'>
+                            <Image className="absolute top-0 right-0 max-md:relative"
                                 src="/careers_graphic.png"
                                 width={566}
                                 height={638}
@@ -1077,87 +1079,74 @@ export default function Shift() {
                     </div>
                 </div>
             </section>
-            <section className='relative py-[140px] mx-auto w-full max-w-[1235px] bg-[#000]'>
+            <section className='relative py-[140px] max-md:py-[40px] mx-auto w-full max-w-[1235px] bg-[#000]'>
                 <div className='relative w-full mx-auto my-0 px-[50px]'>
                     <div className="flex flex-wrap items-end ">
-                        <div className="w-2/3">
+                        <div className="w-2/3 max-lg:w-full">
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-white mb-[20px] leading-[100%] max-w-[771px]"><span>Explore</span>more from Sift</h2>
                         </div>
-                        <div className="w-1/3 flex justify-end mt-[40px]">
+                        <div className="w-1/3 flex justify-end mt-[40px] max-lg:w-full max-lg:justify-start max-lg:mt-0">
                             <Link href="#" className="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-black hover:bg-[#FF3B84] ease-in-out duration-700">Watch the video</Link>
                         </div>
                     </div>
                     <div className='wrap w-[calc(100%+20px)] relative -ml-[10px] flex flex-wrap'>
-                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                        <div className='card w-[calc(33.33%-20px)] max-md:w-[calc(50%-20px)] max-sm:w-full m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
                             <Image className="transition-all duration-700 group-hover:scale-105 "
                                 src="/cardimgone.png"
                                 width={566}
                                 height={638}
                                 alt="Picture of the author"
                             />
-                            <div className='content text-white p-[32px]'>
+                            <div className='content text-white p-[32px] max-lg:p-[20px]'>
                                 <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
-                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
-                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] max-sm:mb-[55px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer max-lg:left-[20px]"><a class=" text-white hover:text" href="#"><span class="text-[16px] max-sm:text-[14px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                             </div>
                         </div>
-                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                        <div className='card w-[calc(33.33%-20px)] max-md:w-[calc(50%-20px)] max-sm:w-full m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
                             <Image className="transition-all duration-700 group-hover:scale-105 "
                                 src="/scondcard.png"
                                 width={566}
                                 height={638}
                                 alt="Picture of the author"
                             />
-                            <div className='content text-white p-[32px]'>
+                            <div className='content text-white p-[32px] max-lg:p-[20px]'>
                                 <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
-                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
-                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] max-sm:mb-[55px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer max-lg:left-[20px]"><a class=" text-white hover:text" href="#"><span class="text-[16px] max-sm:text-[14px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                             </div>
                         </div>
-                        <div className='card w-[calc(33.33%-20px)] m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
+                        <div className='card w-[calc(33.33%-20px)] max-md:w-[calc(50%-20px)] max-sm:w-full m-[10px] cursor-pointer  border-white rounded-[16px] truncate border-2 transistion relative group whitespace-pre-line group-hover:border-2 group-hover:border-white hover:shadow-white-shadow'>
                             <Image className="transition-all duration-700 group-hover:scale-105 "
                                 src="/scondcard.png"
                                 width={566}
                                 height={638}
                                 alt="Picture of the author"
                             />
-                            <div className='content text-white p-[32px]'>
+                            <div className='content text-white p-[32px] max-lg:p-[20px] '>
                                 <h6 className='text-[16px] leading-[120%] font-[700] uppercase mb-[20px]'>Press releases  |  feb 23 2023</h6>
-                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
-                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer"><a class=" text-white hover:text" href="#"><span class="text-[16px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
+                                <h5 className='text-[24px] max-xl:text-[23px] max-lg:text-[22px] max-md:text-[21px] max-sm:text-[20px] font-bold  mb-[30px] max-sm:mb-[55px] leading-[120%]'>Lorem ipsum dolor sit amet consectetur. Tortor sagittis sed in vitae.</h5>
+                                <div class="absolute bottom-[20px] left-[32px] flex flex-wrap align-middle cursor-pointer max-lg:left-[20px]"><a class=" text-white hover:text" href="#"><span class="text-[16px] max-sm:text-[14px] inline-block font-bold group-hover:text-[#ff3b84] uppercase">read the press release</span><svg class="ml-[10px] inline-block group-hover:width-[30px]" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none"><path d="M13.7365 2.76816C13.3847 2.41055 12.8143 2.41067 12.4626 2.76816C12.1107 3.12602 12.1107 3.70592 12.4628 4.06378L15.9241 7.58359L1.90066 7.58457C1.40319 7.58469 1 7.9947 1 8.50083C1.00012 9.00672 1.40331 9.4166 1.90078 9.4166L15.9246 9.41563L12.4624 12.9362C12.1106 13.2939 12.1106 13.8741 12.4624 14.2317C12.6384 14.4105 12.8688 14.5 13.0994 14.5C13.3299 14.5 13.5604 14.4105 13.7363 14.2318L18.7361 9.14754C18.9051 8.97582 19 8.7429 19 8.49985C18.9999 8.2568 18.905 8.02401 18.736 7.85192L13.7365 2.76816Z" fill="#FF3B84"></path></svg></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className='relative py-[40px] mx-auto w-full max-w-[1235px]  pt-[180px] bg-black truncate whitespace-pre-line'>
-                <div className='absolute top-0 left-0 bg-left w-1/2 z-10'>
-
-                </div>
+            <section className='relative py-[40px] mx-auto w-full max-w-[1235px]  pt-[180px] max-xl:pt-0 max-lg:pt-0 bg-black truncate whitespace-pre-line'>
                 <div className='relative w-full mx-auto my-0 px-[50px] '>
-                    <div className='w-full flex flex-wrap bg-[#2E69FF] justify-end align-middle relative rounded-t-lg'>
+                    <div className='w-full flex flex-wrap bg-[#2E69FF] justify-end align-middle relative rounded-t-lg max-lg:justify-normal max-lg:p-[20px]'>
                         <div className='left-img w-1/2 max-lg:w-full max-lg:relative'>
-                            <Image className="absolute left-0 bottom-0"
+                            <Image className="absolute left-0 bottom-0 max-xl:relative"
                                 src="/footercta.webp"
                                 width={520}
                                 height={300}
                                 alt="Picture of the author"
                             />
-                            {/* <div className='absolute -top-[122%] after:content-[url(/Vector.png)] after:inline-block after:h-auto after:w-[520px] truncate z-10 -left-[14%]'></div> */}
                         </div>
-                        <div className='col-left w-1/2 relative max-lg:w-full'>
-                            {/* <Image className="absolute left-0 bottom-0"
-                                src="/footercta.webp"
-                                width={520}
-                                height={300}
-                                alt="Picture of the author"
-                            />
-                            <div className=' relative after:content-[url(/Vector.png)] after:inline-block after:h-[700px] after:w-[520px] truncate z-10 -left-[20%] top-0'></div> */}
-                        </div>
-                        <div className='col-right w-1/2 py-[30px]'>
+                        <div className='col-right w-1/2 py-[30px] px-[10px] max-lg:w-full'>
                             <h2 className="text-[64px] max-xl:text-[54px] max-lg:text-[44px] max-md:text-[34px] max-sm:text-[24px] font-bold text-white mb-[20px] leading-[100%] max-w-[771px]">Take the next step</h2>
-                            <p className='text-[18px] text-white font-[400] leading-[150%] mb-[20px]'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum.</p>
+                            <p className='text-[18px] max-md:text-[16px] text-white font-[400] leading-[150%] mb-[20px]'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum.</p>
                             <Link href="#" className="text-black text-[16px] font-bold bg-white border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#Ffff] rounded-full inline-block uppercase hover:text-[#FF3B84] hover:bg-[#FFff] hover:border-[#FF3B84] ease-in-out duration-700">Optional CTA</Link>
                         </div>
                     </div>
@@ -1165,17 +1154,19 @@ export default function Shift() {
             </section>
 
             <section className='relative py-[40px] mx-auto w-full max-w-[1235px]  bg-black'>
-                <div className='relative w-full mx-auto my-0 px-[50px] flex flex-wrap'>
-                    <div className='w-1/4'>
-                        <div className='w-full flex flex-wrap mb-[32px]'>
+                <div className='relative w-full mx-auto my-0 px-[50px] flex flex-wrap max-lg:justify-center'>
+                    <div className='w-1/4 max-lg:w-full max-lg:flex max-lg:flex-wrap max-lg:justify-center'>
+                        <div className='w-full flex flex-wrap mb-[32px] max-lg:justify-center'>
+                            <Link href='#'>
                             <Image className=""
                                 src="/logo.png"
                                 width={140}
                                 height={50}
                                 alt="Picture of the author"
                             />
+                            </Link>
                         </div>
-                        <div className='social-nav w-full flex flex-wrap justify-between'>
+                        <div className='social-nav w-full flex flex-wrap justify-between max-w-[400px]'>
                             <Link href="" className='group'><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19.2703 14.2195L13.6453 10.4695C13.5041 10.3753 13.3399 10.3212 13.1704 10.313C13.0008 10.3048 12.8322 10.3428 12.6825 10.4229C12.5328 10.503 12.4077 10.6223 12.3206 10.768C12.2334 10.9136 12.1874 11.0802 12.1875 11.25V18.75C12.1874 18.9198 12.2334 19.0864 12.3206 19.2321C12.4077 19.3777 12.5328 19.497 12.6825 19.5771C12.8322 19.6572 13.0008 19.6952 13.1704 19.687C13.3399 19.6788 13.5041 19.6247 13.6453 19.5305L19.2703 15.7805C19.3989 15.6949 19.5044 15.5789 19.5773 15.4427C19.6502 15.3065 19.6884 15.1545 19.6884 15C19.6884 14.8455 19.6502 14.6935 19.5773 14.5573C19.5044 14.4211 19.3989 14.3051 19.2703 14.2195ZM14.0625 16.9981V13.0078L17.0602 15L14.0625 16.9981ZM27.4605 8.14688C27.3501 7.71486 27.1386 7.31529 26.8433 6.98114C26.5481 6.64698 26.1776 6.38781 25.7625 6.225C21.7453 4.67344 15.3516 4.6875 15 4.6875C14.6484 4.6875 8.25469 4.67344 4.2375 6.225C3.82238 6.38781 3.45192 6.64698 3.15667 6.98114C2.86143 7.31529 2.64987 7.71486 2.53945 8.14688C2.23594 9.31641 1.875 11.4539 1.875 15C1.875 18.5461 2.23594 20.6836 2.53945 21.8531C2.64971 22.2854 2.86119 22.6852 3.15644 23.0195C3.45169 23.3539 3.82224 23.6133 4.2375 23.7762C8.08594 25.2609 14.1094 25.3125 14.9227 25.3125H15.0773C15.8906 25.3125 21.9176 25.2609 25.7625 23.7762C26.1778 23.6133 26.5483 23.3539 26.8436 23.0195C27.1388 22.6852 27.3503 22.2854 27.4605 21.8531C27.7641 20.6813 28.125 18.5461 28.125 15C28.125 11.4539 27.7641 9.31641 27.4605 8.14688ZM25.6453 21.3891C25.6096 21.5328 25.5403 21.6661 25.4432 21.7779C25.346 21.8898 25.2237 21.977 25.0863 22.0324C21.3773 23.4645 15.0691 23.4387 15.0082 23.4387H15C14.9367 23.4387 8.6332 23.4621 4.92188 22.0324C4.7845 21.977 4.66221 21.8898 4.56505 21.7779C4.46788 21.6661 4.3986 21.5328 4.36289 21.3891C4.07812 20.3191 3.75 18.3481 3.75 15C3.75 11.652 4.07812 9.68086 4.35469 8.6168C4.38974 8.47217 4.45872 8.33796 4.55592 8.22527C4.65312 8.11258 4.77575 8.02465 4.91367 7.96875C8.49023 6.58711 14.4832 6.5625 14.9742 6.5625H15.0059C15.0691 6.5625 21.3785 6.54141 25.084 7.96875C25.2214 8.0242 25.3436 8.11141 25.4408 8.22324C25.538 8.33507 25.6073 8.46834 25.643 8.61211C25.9219 9.68086 26.25 11.652 26.25 15C26.25 18.3481 25.9219 20.3191 25.6453 21.3832V21.3891Z" fill="white" className='group-hover:fill-[#FF3B84]' />
                             </svg>
@@ -1201,11 +1192,11 @@ export default function Shift() {
                                 </svg>
                             </Link>
                         </div>
-                        <div class="btn-wrap mt-[32px]"><a class="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-white hover:bg-[#FF3B84] ease-in-out duration-700" href="#">Contact us</a></div>
+                        <div class="btn-wrap mt-[32px] max-lg:w-full max-lg:text-center"><a class="text-white text-[16px] font-bold bg-transparent border-2 py-[16px] max-md:py-[12px] px-[24px] max-md:px-[20px] text-center border-solid border-[#FF3B84] rounded-full inline-block uppercase hover:text-white hover:bg-[#FF3B84] ease-in-out duration-700" href="#">Contact us</a></div>
                     </div>
-                    <div className='w-2/4 text-white'>
-                        <div className='w-full flex flex-wrap justify-between'>
-                            <div className='w-1/3 pl-[20px]'>
+                    <div className='w-2/4 text-white max-lg:w-full max-lg:my-[20px]'>
+                        <div className='w-full flex flex-wrap justify-between max-lg:text-center'>
+                            <div className='w-1/3 pl-[20px] max-sm:w-full max-sm:pl-0'>
                                 <h4 className='text-[16px] leading-[150%] font-[600] mb-[24px]'>Developers</h4>
                                 <ul>
                                     <li className='text-[16px] leading-[150%] font-[400] mb-[24px] hover:text-[#ff3b84] transition-all ease-in-out'>
@@ -1232,7 +1223,7 @@ export default function Shift() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='w-1/3 pl-[20px]'>
+                            <div className='w-1/3 pl-[20px] max-sm:w-full max-sm:pl-0'>
                                 <h4 className='text-[16px] leading-[150%] font-[600] mb-[24px]'>Support</h4>
                                 <ul>
                                     <li className='text-[16px] leading-[150%] font-[400] mb-[24px] hover:text-[#ff3b84] transition-all ease-in-out cursor-pointer group'>
@@ -1254,7 +1245,7 @@ export default function Shift() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='w-1/3 pl-[20px]'>
+                            <div className='w-1/3 pl-[20px] max-sm:w-full max-sm:pl-0'>
                                 <h4 className='text-[16px] leading-[150%] font-[600] mb-[24px]'>Partners</h4>
                                 <ul>
                                     <li className='text-[16px] leading-[150%] font-[400] mb-[24px] hover:text-[#ff3b84] transition-all ease-in-out'>
@@ -1267,9 +1258,9 @@ export default function Shift() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/4'>
+                    <div className='w-1/4 max-lg:w-full '>
                         <div className='wrap'>
-                            <h4 className='text-[18px] text-white font-[700] leading-[150%] mb-[32px]'>Subscribe to receive updates!</h4>
+                            <h4 className='text-[18px] text-white font-[700] leading-[150%] mb-[32px] max-lg:text-center'>Subscribe to receive updates!</h4>
                             <div className='wrapper'>
                                 <form>
                                     <label for="first-name" type="text" className='w-full text-white uppercase text-[14px] font-[700] leading-[120%] mb-[10px] block'>first name</label>
@@ -1286,13 +1277,13 @@ export default function Shift() {
                         </div>
                     </div>
                     <div className='mt-[24px] flex flex-wrap justify-between w-full'>
-                        <div className='col-left'>
+                        <div className='col-left max-lg:w-full max-lg:mb-[20px]'>
                             <p className='text-[14px] text-white font-[400] leading-[150%]'>© 2023 Sift Science, Inc. All rights reserved. Sift and the Sift logo are trademarks or registered trademarks of Sift Science, Inc.</p>
                         </div>
-                        <div className='col-right'>
+                        <div className='col-right max-lg:w-full'>
                             <ul className='flex flex-wrap'>
-                                <li className='text-[14px] text-white font-[400] leading-[176%] ml-[10px] hover:text-[#ff3b84]'><Link href="#" className=''>Privacy & Terms</Link></li>
-                                <li><Link href="#" className='text-[14px] text-white font-[400] leading-[176%] ml-[10px] hover:text-[#ff3b84]'>Sitemap</Link></li>
+                                <li className='text-[14px] text-white font-[400] leading-[176%] ml-[10px] hover:text-[#ff3b84] max-lg:ml-0 max-lg:mr-[10px]'><Link href="#" className=''>Privacy & Terms</Link></li>
+                                <li className='text-[14px] text-white font-[400] leading-[176%] ml-[10px] hover:text-[#ff3b84] max-lg:ml-0'><Link href="#" >Sitemap</Link></li>
                             </ul>
                         </div>
                     </div>
